@@ -20,9 +20,10 @@
             <h3 class="text-xl font-semibold mb-1 text-white/90">Data Analyst @ Gotrade</h3>
             <p class="text-sm text-gray-400 mb-3">May 2025 – Aug 2025, Indonesia</p>
             <ul class="list-disc pl-5 text-gray-300 space-y-1">
+              <li>Built a centralized dashboard to track performance, manage workload, and monitor delivery efficiency across sprints and ad-hoc requests.</li>
               <li>Collect, clean, organize data from multiple sources</li>
               <li>Conduct Exploratory Data Analysis (EDA) to identify trends and patterns</li>
-              <li>Create dashboards and visualizations using Tableau, Power BI, and Metadata</li>
+              <li>Create dashboards and visualizations using Lark and Metadata</li>
               <li>Assist in analytical reporting to guide data-driven decisions</li>
               <li>Collaborate with cross-functional teams to understand business needs</li>
             </ul>

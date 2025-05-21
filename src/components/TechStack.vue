@@ -13,6 +13,7 @@
             <TechCard name="R" icon="/icons/r.png" />
             <TechCard name="Tableau" icon="/icons/tableau.png" />
             <TechCard name="TablePlus" icon="/icons/tableplus.png" />
+            <TechCard name="MetaBase" icon="/icons/metabase.png" />
           </div>
         </div>
 
