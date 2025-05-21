@@ -24,7 +24,7 @@
             <TechCard name="Python" icon="/icons/python.png" />
             <TechCard name="Java" icon="/icons/java.png" />
             <TechCard name="JavaScript" icon="/icons/javascript.png" />
-            <TechCard name="Vue.js" icon="/icons/vue.png" />
+            <TechCard name="Vue" icon="/icons/vue.png" />
             <TechCard name="CSS" icon="/icons/css.png" />
             <TechCard name="HTML" icon="/icons/html.png" />
           </div>
