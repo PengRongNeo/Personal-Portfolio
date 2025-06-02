@@ -1,3 +1,5 @@
+/* main.css */
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -9,3 +11,4 @@ body {
 section {
   @apply py-20 px-6;
 }
+

@@ -1,8 +1,9 @@
-/* /src/assets/stars.css */
+/* Background Gradient + Star Grid */
 .starry-background {
   background: radial-gradient(ellipse at bottom, #0d0d0d 0%, #000000 100%);
   position: relative;
   overflow: hidden;
+  z-index: 0;
 }
 
 .starry-background::before {
@@ -12,9 +13,78 @@
   background-image: 
     radial-gradient(white 1px, transparent 1px),
     radial-gradient(white 1px, transparent 1px);
-  background-size: 80px 80px;
-  background-position: 0 0, 40px 40px;
-  opacity: 0.06;
-  z-index: 0;
+  background-size: 60px 60px;
+  background-position: 0 0, 30px 30px;
+  opacity: 0.12;
+  animation: twinkle 6s ease-in-out infinite;
+  z-index: -1;
   pointer-events: none;
+}
+
+@keyframes twinkle {
+  0%, 100% { opacity: 0.1; }
+  50% { opacity: 0.2; }
+}
+
+/* Shooting Stars */
+.shooting-stars {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.shooting-stars span {
+  position: absolute;
+  width: 2px;
+  height: 80px;
+  background: linear-gradient(to top left, rgba(255, 255, 150, 0.8), transparent);
+  opacity: 0;
+  animation: shoot-ne 8s linear infinite;
+  transform-origin: top left;
+}
+
+/* Optional: make stars start in random places */
+.shooting-stars span:nth-child(1) {
+  top: 10%;
+  left: 10%;
+  animation-delay: 0s;
+}
+.shooting-stars span:nth-child(2) {
+  top: 30%;
+  left: 50%;
+  animation-delay: 2s;
+}
+.shooting-stars span:nth-child(3) {
+  top: 60%;
+  left: 20%;
+  animation-delay: 4s;
+}
+.shooting-stars span:nth-child(4) {
+  top: 80%;
+  left: 70%;
+  animation-delay: 6s;
+}
+.shooting-stars span:nth-child(5) {
+  top: 40%;
+  left: 90%;
+  animation-delay: 8s;
+}
+
+@keyframes shoot-ne {
+  0% {
+    transform: translateX(0) translateY(0) rotate(45deg);
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(800px) translateY(-800px) rotate(45deg);
+    opacity: 0;
+  }
 }

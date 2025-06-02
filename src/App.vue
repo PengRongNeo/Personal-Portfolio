@@ -1,5 +1,12 @@
 <template>
-  <div class="starry-background text-white font-sans scroll-smooth min-h-screen">
+  <div class="starry-background text-white font-sans scroll-smooth min-h-screen relative">
+    <!-- Star Animation Layer -->
+    <div class="shooting-stars">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
     <NavBar />
 
     <main class="flex flex-col items-center">
@@ -44,7 +51,3 @@ html {
   scroll-behavior: smooth;
 }
 </style>
-
-
-#FUTURE ADDINs / Updates
-- 

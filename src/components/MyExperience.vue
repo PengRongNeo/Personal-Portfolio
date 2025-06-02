@@ -1,5 +1,5 @@
 <template>
-  <section id="experience" class="pt-0 pb-40 px-6 text-gray-200 border-b border-gray-700">
+  <section id="experience" class="pt-0 pb-40 px-6 text-gray-200 border-b border-gray-700 bg-black/50 backdrop-blur-md">
     <div class="max-w-5xl mx-auto">
       <h2 class="text-3xl font-semibold mb-10 text-center">My Work Experience</h2>
 
